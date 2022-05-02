@@ -14,6 +14,7 @@ export { default as insertAtIndex } from './insertAtIndex';
 export { default as isPositionCenter } from './isPositionCenter';
 export { default as jsonify } from './jsonify';
 export { default as mode } from './mode';
+export { default as normalizeJsonify } from './normalizeJsonify';
 export { default as positionToClassName } from './positionToClassName';
 export { default as removeAtIndex } from './removeAtIndex';
 export { default as selectOptions } from './selectOptions';
