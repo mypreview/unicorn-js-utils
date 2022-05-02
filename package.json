@@ -3,12 +3,13 @@
 	"version": "1.0.0",
 	"description": "A collection of JavaScript utility methods delivering modularity, performance & extras.",
 	"keywords": [
-        "gutenberg",
+		"gutenberg",
 		"helper",
 		"js",
 		"javascript",
 		"react",
-		"utils"
+		"utils",
+		"wordpress"
 	],
 	"homepage": "https://github.com/mypreview/unicorn-js-utils#readme",
 	"bugs": {
@@ -21,10 +22,10 @@
 	"license": "GPL-3.0-or-later",
 	"author": "MyPreview",
 	"sideEffects": false,
-    "main": "build/index.js",
+	"main": "build/index.js",
 	"module": "build/index.js",
 	"scripts": {
-        "build": "cross-env BABEL_ENV=default NODE_ENV=production && rm -rf build && mkdir build && babel src --out-dir build --no-copy-ignored",
+		"build": "cross-env BABEL_ENV=default NODE_ENV=production && rm -rf build && mkdir build && babel src --out-dir build --no-copy-ignored",
 		"check-engines": "wp-scripts check-engines",
 		"check-licenses": "wp-scripts check-licenses",
 		"docs": "documentation build src/** -f html --github -o docs",
@@ -34,8 +35,8 @@
 		"lint:pkg-json": "wp-scripts lint-pkg-json",
 		"packages-update": "wp-scripts packages-update",
 		"prepare": "husky install",
-		"test:e2e": "wp-scripts test-e2e",
 		"prepublishOnly": "npm run format && npm run lint:js && npm run build",
+		"test:e2e": "wp-scripts test-e2e",
 		"test:unit": "cross-env BABEL_ENV=test NODE_ENV=test jest",
 		"test:unit:help": "cross-env BABEL_ENV=test NODE_ENV=test jest --help",
 		"test:unit:watch": "cross-env BABEL_ENV=test NODE_ENV=test jest --watch"
