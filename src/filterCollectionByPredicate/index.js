@@ -12,8 +12,9 @@ import { forEach, find, matchesProperty } from 'lodash';
  *
  * This function is used as the default predicate for `filterCollectionByValues`.
  *
- * @param     {any}         value    A value to check for.
- * @return    {Function}             Predicate comparison function.
+ * @private
+ * @param      {any}         value    A value to check for.
+ * @return     {Function}             Predicate comparison function.
  */
 const matchId = ( value ) => matchesProperty( 'id', value );
 
@@ -27,13 +28,14 @@ const matchId = ( value ) => matchesProperty( 'id', value );
  *
  * @function
  * @since       1.0.0
+ * @name        filterCollectionByPredicate
  * @param       {Array}       input         The input to search for.
  * @param       {Array}       collection    The collection to search elements in.
  * @param       {Function}    predicate     The predicate function to be applied in every iteration.
  * @return      {Array}                     All matching entries in collection.
  * @example
  *
- * filterCollectionByValues( [ 1, 3 ], [ { id: 1, content: {} }, { id: 2, content: {} }, { id: 3, content: {} } ] );
+ * filterCollectionByPredicate( [ 1, 3 ], [ { id: 1, content: {} }, { id: 2, content: {} }, { id: 3, content: {} } ] );
  *
  * // => Array [ { id: 1, content: {} }, { id: 3, content: {} } ]
  */
