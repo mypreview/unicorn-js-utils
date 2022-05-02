@@ -53,14 +53,3 @@ dist/
 
 # IDE configuration files
 .idea
-
-# Husky configuration files
-.husky
-
-# Documentation
-docs/
-
-# .ignore files and development configs
-.eslintignore
-.prettierignore
-babel.config.js
