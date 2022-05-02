@@ -32,6 +32,7 @@ import optionNone from './none';
  *
  * @function
  * @since       1.0.0
+ * @name        selectOptions
  * @param  	    {Array}     posts    The response on the API call of array of post objects.
  * @param  	    {string}    paths    The property paths to pick.
  * @param  	    {Array}     none     Text to display for showing no options being selected.

@@ -13,6 +13,7 @@ import { join, split } from 'lodash';
  *
  * @function
  * @since       1.0.0
+ * @name        spaceToNbsp
  * @param  	    {string}    input    String to convert.
  * @return 	    {string}             Converted value.
  * @example

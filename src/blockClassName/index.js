@@ -11,6 +11,7 @@ import { invoke, nth } from 'lodash';
  *
  * @function
  * @since       1.0.0
+ * @name        blockClassName
  * @param       {string}    input    CSS class names assigned to the block.
  * @return      {string}             CSS class name generated for the block.
  * @example

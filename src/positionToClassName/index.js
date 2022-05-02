@@ -24,6 +24,7 @@ import positions from './positions';
  *
  * @function
  * @since       1.0.0
+ * @name        positionToClassName
  * @param  	    {string}    input    CSS position input.
  * @return 	    {string}             Corresponding CSS class name based on the provided position.
  * @example

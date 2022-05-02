@@ -10,6 +10,7 @@ import { invoke, nth, replace } from 'lodash';
  *
  * @function
  * @since       1.0.0
+ * @name        blockStyleSlug
  * @param       {string}    input    CSS class names assigned to the block.
  * @return      {string}             Style name associated or selected for this block.
  * @example

@@ -10,6 +10,7 @@ import { divide, isEqual, multiply, round } from 'lodash';
  *
  * @function
  * @since       1.0.0
+ * @name        dimRatioClassName
  * @param	    {number}    input    Dim ratio or opacity. [0-100]
  * @return 	    {string}             CSS class name generated from the ratio input.
  * @example

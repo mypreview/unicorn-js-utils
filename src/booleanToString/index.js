@@ -17,6 +17,7 @@ import stringToBoolean from '../stringToBoolean';
  *
  * @function
  * @since       1.0.0
+ * @name        booleanToString
  * @param  	    {boolean|string}    input    Bool to convert. If a string is passed it will first be converted to a bool.
  * @return 	    {string}                     Converted value.
  * @example

@@ -10,6 +10,7 @@ import invoke from 'lodash/invoke';
  *
  * @function
  * @since       1.0.0
+ * @name        getMailTo
  * @param  	    {string}    input    The href attribute value.
  * @return 	    {Array}              Extracted email-addresses from the provided href value.
  * @example

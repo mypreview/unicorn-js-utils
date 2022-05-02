@@ -10,6 +10,7 @@ import isArray from 'lodash/isArray';
  *
  * @function
  * @since       1.0.0
+ * @name        ifArray
  * @param  	    {Array}      input    The value to check.
  * @return 	    {boolean}             Whether the argument provided is a non-empty array.
  * @example

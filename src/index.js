@@ -4,7 +4,7 @@ export { default as blockStyleSlug } from './blockStyleSlug';
 export { default as booleanToString } from './booleanToString';
 export { default as deepPick } from './deepPick';
 export { default as dimRatioClassName } from './dimRatioClassName';
-export { default as filterCollectionByValues } from './filterCollectionByValues';
+export { default as filterCollectionByPredicate } from './filterCollectionByPredicate';
 export { default as focalPointStyle } from './focalPointStyle';
 export { default as formattedContent } from './formattedContent';
 export { default as getMailTo } from './getMailTo';

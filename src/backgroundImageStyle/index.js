@@ -10,6 +10,7 @@ import { invoke, isString, nth } from 'lodash';
  *
  * @function
  * @since       1.0.0
+ * @name 		backgroundImageStyle
  * @param       {string}    input    Background image URL or web address.
  * @return      {Object}             CSS style for the provided background image address.
  * @example

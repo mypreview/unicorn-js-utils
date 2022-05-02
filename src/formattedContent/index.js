@@ -17,6 +17,7 @@ import { decodeEntities } from '@wordpress/html-entities';
  *
  * @function
  * @since       1.0.0
+ * @name        formattedContent
  * @param  	    {string}    input    Post content.
  * @return 	    {string}             Formatted post content.
  * @example

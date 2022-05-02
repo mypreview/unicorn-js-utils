@@ -10,6 +10,7 @@ import { first, forEach, get, set, split } from 'lodash';
  *
  * @function
  * @since       1.0.0
+ * @name        deepPick
  * @param  	    {Object}    collection    The source object.
  * @param  	    {Array}     paths         The property paths to pick.
  * @return      {Object}                  Returns the new object.

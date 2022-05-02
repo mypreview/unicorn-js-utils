@@ -10,6 +10,7 @@ import { forOwn, snakeCase, toLower } from 'lodash';
  *
  * @function
  * @since       1.0.0
+ * @name        shortcode
  * @param       {string}    tagName       Shortcode tag name.
  * @param       {Object}    attributes    Shortcode attributes.
  * @return      {string}                  Generated shortcode.

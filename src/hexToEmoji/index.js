@@ -17,6 +17,7 @@ import formattedContent from './../formattedContent';
  *
  * @function
  * @since       1.0.0
+ * @name        hexToEmoji
  * @param  	    {string}    value    Emoji specific hex code.
  * @return 	    {any}                Rendered Emoji.
  * @example

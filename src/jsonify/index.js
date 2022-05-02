@@ -10,6 +10,7 @@ import attempt from 'lodash/attempt';
  *
  * @function
  * @since       1.0.0
+ * @name        jsonify
  * @param  	    {string}    input    The string to parse as JSON.
  * @return 	    {Object}             Converted value to object.
  * @example

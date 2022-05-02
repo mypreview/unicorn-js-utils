@@ -10,6 +10,7 @@ import { join, keys, map, values } from 'lodash';
  *
  * @function
  * @since       1.0.0
+ * @name        stringifyQuery
  * @param  	    {Array}     input    The array of objects to query stringify.
  * @return 	    {string}             Returns a stringified query.
  * @example

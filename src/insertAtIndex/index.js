@@ -10,6 +10,7 @@ import { add, concat, slice } from 'lodash';
  *
  * @function
  * @since       1.0.0
+ * @name        insertAtIndex
  * @param  	    {Array}     input    The array to add to.
  * @param  	    {any}       value    The value to insert.
  * @param  	    {number}    index    Given array index to insert the value.

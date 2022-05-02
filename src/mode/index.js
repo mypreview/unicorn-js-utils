@@ -10,6 +10,7 @@ import { filter, last, sortBy } from 'lodash';
  *
  * @function
  * @since       1.0.0
+ * @name        mode
  * @param  	    {Array}     input    The array to process.
  * @return 	    {string}             Mode element.
  * @example
