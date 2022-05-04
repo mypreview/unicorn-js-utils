@@ -16,6 +16,8 @@ Install the module
 npm install @mypreview/unicorn-js-utils --save
 ```
 
+## Table of Content
+
 | Method                      | Description                                                                                                       |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------|
 | [backgroundImageStyle](https://github.com/mypreview/unicorn-js-utils/blob/main/src/backgroundImageStyle/index.js)        | Generate inline background-image CSS style based on provided URL                                                  |
