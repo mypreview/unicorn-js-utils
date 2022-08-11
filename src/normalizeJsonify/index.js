@@ -1,16 +1,16 @@
 /**
- * Determine whether the argument is a non empty array.
+ * External dependencies
  *
  * @ignore
  */
 import ifArray from '../ifArray';
 
 /**
- * Parses a JSON string.
+ * Internal dependencies
  *
  * @ignore
  */
-import jsonify from '../jsonify';
+import { jsonify } from '../';
 
 /**
  * Validate and normalize JSON string to an array.

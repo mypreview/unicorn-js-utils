@@ -1,5 +1,5 @@
 /**
- * Utility functions from `Lodash`.
+ * External dependencies
  *
  * @ignore
  */

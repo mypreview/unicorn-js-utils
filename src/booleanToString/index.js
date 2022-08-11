@@ -1,16 +1,16 @@
 /**
- * Utility for libraries from the `Lodash`.
+ * External dependencies
  *
  * @ignore
  */
 import { isBoolean, isEqual } from 'lodash';
 
 /**
- * Convert a string (e.g. 'yes' or 'no') to a bool.
+ * Internal dependencies
  *
  * @ignore
  */
-import stringToBoolean from '../stringToBoolean';
+import { stringToBoolean } from '../';
 
 /**
  * Converts a bool to a 'yes' or 'no'.

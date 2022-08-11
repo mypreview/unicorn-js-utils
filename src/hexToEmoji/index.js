@@ -1,16 +1,16 @@
 /**
- * Utility for libraries from the `Lodash`.
+ * External dependencies
  *
  * @ignore
  */
 import { join, split, toLower } from 'lodash';
 
 /**
- * Gets a formatted version of the post content provided.
+ * Internal dependencies
  *
  * @ignore
  */
-import formattedContent from './../formattedContent';
+import { formattedContent } from '../';
 
 /**
  * Converts a given hex-unicode into an Emoji icon.

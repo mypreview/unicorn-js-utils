@@ -1,30 +1,18 @@
 /**
- * Utility for libraries from the `Lodash`.
+ * External dependencies
  *
  * @ignore
  */
 import { concat, first, get, keys, map, mapKeys, split } from 'lodash';
-
-/**
- * Modify the names of the own enumerable properties (keys) of an object.
- *
- * @ignore
- */
 import renameKeys from 'rename-keys';
 
 /**
- * Creates an object composed of the (nested) picked object properties.
- *
- * @ignore
- */
-import deepPick from '../deepPick';
-
-/**
- * Text to display for showing no options being selected.
+ * Internal dependencies
  *
  * @ignore
  */
 import optionNone from './none';
+import { deepPick } from '../';
 
 /**
  * Generates an array of objects to be passed to the `SelectControl` component.

@@ -1,23 +1,17 @@
 /**
- * Utility for libraries from the `Lodash`.
+ * External dependencies
  *
  * @ignore
  */
 import get from 'lodash/get';
 
 /**
- * Determine whether the content is center positioned.
- *
- * @ignore
- */
-import isPositionCenter from '../isPositionCenter';
-
-/**
- * Possible background position inputs.
+ * Internal dependencies
  *
  * @ignore
  */
 import positions from './positions';
+import { isPositionCenter } from '../';
 
 /**
  * Generates content-position CSS class name based on provided input.

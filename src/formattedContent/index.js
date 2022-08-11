@@ -1,12 +1,12 @@
 /**
- * Utility for libraries from the `Lodash`.
+ * External dependencies
  *
  * @ignore
  */
 import trim from 'lodash/trim';
 
 /**
- * HTML entity utilities for WordPress.
+ * WordPress dependencies
  *
  * @ignore
  */

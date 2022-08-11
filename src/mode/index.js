@@ -1,5 +1,5 @@
 /**
- * Utility for libraries from the `Lodash`.
+ * External dependencies
  *
  * @ignore
  */
@@ -15,7 +15,7 @@ import { filter, last, sortBy } from 'lodash';
  * @return 	    {string}             Mode element.
  * @example
  *
- * mode( ['pear', 'apple', 'orange', 'apple'] );
+ * mode( [ 'pear', 'apple', 'orange', 'apple' ] );
  *
  * // => string "apple"
  */
