@@ -1,16 +1,25 @@
 /**
- * Slugifies every string, even when it contains unicode!
+ * External dependencies
  *
  * @ignore
  */
+import { flow, isArray, join, map, toString } from 'lodash';
 import slug from 'slugify';
+import striptags from 'striptags';
 
 /**
- * An implementation of PHP's `strip_tags` in Node.js.
+ * Sanitizes the slug value.
  *
- * @ignore
+ * @private
+ * @param      {string}    value     Slug value passed in request.
+ * @return     {string}				 Sanitized value for the slug.
  */
-import striptags from 'striptags';
+const slugify = ( value ) =>
+	slug( striptags( value ), {
+		replacement: '-',
+		remove: /[*_+~()'"!?\/\-—–−:@^|&#.,;%<>{}]/g,
+		lower: true,
+	} );
 
 /**
  * Slugifies every string, even when it contains unicode!
@@ -19,17 +28,12 @@ import striptags from 'striptags';
  * @function
  * @since       1.0.0
  * @name        slugify
- * @param  	    {string}    input    The value to slugify.
- * @return 	    {string}             Converted value to slug.
+ * @param  	    {Array|string}    input    The value to slugify.
+ * @return 	    {string}             	   Converted value to slug.
  * @example
  *
  * slugify( 'unicode is ♥' );
  *
  * // => string 'unicode-is-love'
  */
-export default ( input ) =>
-	slug( striptags( input ), {
-		replacement: '-',
-		remove: /[*_+~()'"!?\/\-—–−:@^|&#.,;%<>{}]/g,
-		lower: true,
-	} );
+export default ( input ) => ( isArray( input ) ? join( map( input, flow( [ toString, slugify ] ) ), '-' ) : slugify( input ) );
