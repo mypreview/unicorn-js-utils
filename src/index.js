@@ -17,6 +17,7 @@ export { default as mode } from './mode';
 export { default as normalizeJsonify } from './normalizeJsonify';
 export { default as positionToClassName } from './positionToClassName';
 export { default as removeAtIndex } from './removeAtIndex';
+export { default as sanitizeSlug } from './sanitizeSlug';
 export { default as selectOptions } from './selectOptions';
 export { default as shortcode } from './shortcode';
 export { default as slugify } from './slugify';
