@@ -15,6 +15,7 @@ export { default as isPositionCenter } from './isPositionCenter';
 export { default as jsonify } from './jsonify';
 export { default as mode } from './mode';
 export { default as normalizeJsonify } from './normalizeJsonify';
+export { default as pickRelevantMediaFiles } from './pickRelevantMediaFiles';
 export { default as positionToClassName } from './positionToClassName';
 export { default as reducer } from './reducer';
 export { default as removeAtIndex } from './removeAtIndex';
